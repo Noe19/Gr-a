@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:ital,wght@1,300 & family= Roboto:wght@100;300;400;500;900 & family= Cola amarilla & display=swap');
+@import "mediaqueries.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    height: auto;
+
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% -3.03%, #b0d4ff 0, #80b0e8 50%, #4b8dce 100%);
+    height: 80px;
+    padding-bottom: 20px;
+}
+.navbar .brand{
+    color: #3d5a80;
+}
+.brand h2{
+    color: white;
+    text-decoration: none;
+
+}
+.brand a{
+    text-decoration: none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    padding: 30px;
+}
+.navbar .menu{
+    grid-column: 6 / 9;
+    display: flex;
+    margin-top: 12px;
+}
+.menu li{
+    list-style: none;
+
+}
+.menu li a{
+    text-decoration: none;
+    margin-right: 3em;
+    front-size:1.3em;
+    color: #fff;
+    front-weight:200px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.menu li a:hover{
+    background-color: #ee6c4d;
+    color: black;
+    transition: all .05s;
+}
+.bar-menu1{
+    display: none;
+}
+/*MAIN SECCION  */
+.main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+
+.cont-info{
+    color: #3d5a80;
+
+}
+h1{
+    front-size:5em;
+}
+
+.button{
+    cursor: pointer;
+    color: white;
+    box-shadow: 0px 3px 14px -8px rgba(0,0,0,0.78);
+
+}
+.button:hover{
+    box-shadow: none;
+}
+.btn-solicitar-Servicio ,.read-more{
+    background-color: #80b0e8;
+    padding: 8px 40px;
+    front-size:1.2em;
+    border-radius: 20px;
+    border: none;
+}
+
+.read-more {
+    background: none;
+    border: 1px solid #80b0e8;
+    margin: 20px;
+
+}
+.main img{
+    margin-top: 3em;
+}
+.Quienes_Somos{
+    background: #80b0e8;
+    padding: 50px;
+}
+.Quienes_Somos h3{
+    padding-left: 3px;
+   font-size: 80px;
+    padding-right: 3px;
+
+}
+.Quienes_Somos h5 {
+    padding-left: 3px;
+    font-size: 30px;
+    padding-right: 3px;
+}
+.Quienes_Somos p{
+    padding-left: 3px;
+    font-size: 20px;
+    padding-right: 3px;
+}
+.sign_ima1{
+
+
+    background-image: url("../img/grua1.jpg");
+    height: 450px;
+
+}
+.sign_ima1 h3{
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+}
+.sign_ima2{
+
+    height: 450px;
+    background-image: url("../img/gps.jpg");
+}
+.sign_ima2 h3{
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+}
+
+.sign_ima3{
+
+
+    background-image: url("../img/grua3.jpg");
+    height: 450px;
+}
+.sign_ima3 h3 {
+
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 220px;
+
+    color: white;
+    background-color: rgba(0,0,0,0.50);
+}
+
+.row{
+    background: #ee6c4d;
+
+    padding:50px;
+}
+.pie_de_pagina{
+
+
+    background-color: #80b0e8;
+}

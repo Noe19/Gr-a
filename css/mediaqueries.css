@@ -1,0 +1,70 @@
+@media only screen and (max-width: 680px) {
+    body{
+        height: auto;
+    }
+
+    .navbar{
+        background-color: #3d5a80;
+        height: 80px;
+        box-shadow: 2px 2px 15px 0px rgba(0,0,0,.42);
+        align-items: center;
+    }
+    .navbar .menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top:60px;
+        background-color: #3d5a80;
+        height: 50vh;
+        left: -1em;
+        transform:translateY(-120%) ;
+        transition: all 1.4s;
+    }
+    .navbar .menu-toggle{
+        transform: translateY(0%);
+
+    }
+    .menu li{
+        margin-top:3em;
+    }
+    .navbar .bar-menu1 {
+        display: block;
+        front-size:2em;
+        color:white;
+        cursor: pointer;
+    }
+    /*MAIN SECCION  */
+    .main{
+
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        text-align: center;
+        height: 100vh;
+    }
+    .main img{
+        padding-top: 100px;
+        width: 350px;
+        height: 350px;
+        margin-left: 80px;
+    }
+    .cont-info{
+        margin-left: 80px;
+        text-align: center;
+    }
+    .main h1{
+        margin-top: -80px;
+    }
+
+
+
+
+
+    .card-body{
+        display: block;
+    }
+
+
+    
+}
